@@ -1,0 +1,6 @@
+- id: qseal-sync
+  name: Sync secrets with qseal
+  description: Avoids forgetting to seal secrets after editing them (gitignored)
+  entry: qseal sync
+  language: golang
+  pass_filenames: false
